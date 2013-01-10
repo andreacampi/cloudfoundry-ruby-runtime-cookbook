@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: cloudfoundry-ruby-runtime
-# Recipe:: ruby_1_9_2
+# Recipe:: ruby19
 #
 # Copyright 2012, ZephirWorks
 # Copyright 2012, Trotter Cashion
