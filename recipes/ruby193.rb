@@ -2,7 +2,7 @@
 # Cookbook Name:: cloudfoundry-ruby-runtime
 # Recipe:: ruby193
 #
-# Copyright 2012, ZephirWorks
+# Copyright 2012-2013, ZephirWorks
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,6 +39,6 @@ cloudfoundry_runtime "ruby193" do
   version_output    "1.9.3"
   additional_checks "-e 'puts RUBY_PATCHLEVEL == 286'"
   default           true
-  frameworks        %w{ rails3 sinatra }
+  frameworks        %w{ rails3 sinatra standalone }
   action :nothing
 end.run_action(:create)
